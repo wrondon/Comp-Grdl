@@ -42,7 +42,7 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.4.0'
+        kotlinCompilerExtensionVersion '1.4.2'
     }
     packagingOptions {
         resources {
@@ -259,6 +259,8 @@ dependencies {
     implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
     implementation 'io.reactivex.rxjava3:rxjava:3.1.6'
     implementation "io.reactivex.rxjava3:rxkotlin:3.0.1"
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1'
 
     implementation 'io.ktor:ktor-client-core:2.2.3'
     implementation 'io.ktor:ktor-client-cio:2.2.3'
